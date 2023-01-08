@@ -11,6 +11,7 @@ update the filed to your own value.
 
 ```shell
 chmod +x run-server.sh
+./run-server.sh
 ```
 
 You need to change the _DOMAIN_ value to your ip, if you want to deploy it as a server on production
