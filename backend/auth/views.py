@@ -11,7 +11,7 @@ from eth_account.messages import defunct_hash_message
 from flask_jwt_extended import JWTManager, jwt_required, create_access_token, get_jwt_identity
 
 from backend import db
-from backend.model.user import User, get_user
+from backend.obj_model.user import User, get_user
 
 auth_bp = Blueprint('auth', __name__)
 

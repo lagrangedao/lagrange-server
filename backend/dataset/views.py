@@ -4,9 +4,9 @@ from flask import jsonify, Blueprint, request
 from flask_jwt_extended import jwt_required, get_jwt_identity
 
 from backend import db
-from backend.model.dataset import Dataset
-from backend.model.file import File
-from backend.model.user import get_user, User
+from backend.obj_model.dataset import Dataset
+from backend.obj_model.file import File
+from backend.obj_model.user import get_user, User
 from lagrange_server import app
 
 dataset_bp = Blueprint(
