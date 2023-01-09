@@ -1,1 +1,4 @@
-uvicorn==0.20.0
+fastapi==0.74.*
+requests==2.27.*
+torch==1.11.*
+uvicorn[standard]==0.17.*
