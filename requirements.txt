@@ -22,4 +22,4 @@ packaging==22.0
 pyparsing~=3.0.9
 coverage~=7.0.1
 waitress~=2.1.2
-python-mcs-sdk==0.1.7
+python-mcs-sdk==0.2.0
